@@ -43,9 +43,11 @@
 **/*.cbp
 **/CMakeScripts
 **/compile_commands.json
+CMakeSettings.json
 
-# Visual Studio cache/options directory
+# IDEs
 .vs/
+.idea/
 
 # Output folder
 out/
