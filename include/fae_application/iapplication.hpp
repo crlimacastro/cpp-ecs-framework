@@ -4,6 +4,6 @@ namespace fae
 {
 	struct iapplication
 	{
-		&iapplication run() = 0;
+		virtual iapplication& run() = 0;
 	};
 }
